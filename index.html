@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Snake</title>
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+        #score {
+            margin-bottom: 0.25rem;
+        }
+        #canvas {
+            image-rendering: crisp-edges;
+            border: 3px solid #000000;
+            width: 384px;
+            height: 312px;
+        }
+    </style>
+</head>
+<body>
+    <div id="score">Score: 0, High Score: 0</div>
+    <canvas id="canvas"></canvas>
+    <script type="module" src="./main.js"></script>
+    <p>
+        Use the arrow keys to begin / move the snake.
+    </p>
+</body>
+</html>
